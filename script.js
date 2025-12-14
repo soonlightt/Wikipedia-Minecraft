@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const music = document.getElementById("bg-music");
     const btn = document.getElementById("music-btn");
 
-    music.volume = 0.4;
+    music.volume = 0.8;
 
     btn.addEventListener("click", () => {
         if (music.paused) {
@@ -58,3 +58,4 @@ window.addEventListener('scroll', () => {
         }, 4000);
     }
 });
+
