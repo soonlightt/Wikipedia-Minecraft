@@ -262,7 +262,7 @@ html {
         border-radius: 4px;
         appearance: none;
         -webkit-appearance: none;
-        top: 110px;
+        top: 200px;
         left: 10px;
         transform: none;
         font-size: 8px;
@@ -270,4 +270,5 @@ html {
         z-index: 1100;
     }
 }
+
 
