@@ -49,7 +49,7 @@
     position: fixed; 
     top: 30px;
     left: 30px;
-    z-index: 1000;
+    z-index: 1100;
 }
 
 body{
@@ -267,3 +267,4 @@ html {
         z-index: 1100;
     }
 }
+
