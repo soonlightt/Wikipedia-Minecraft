@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap&subset=cyrillic" rel="stylesheet">
+    <div class="image-modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <button id="music-btn">🔊 Музыка</button>
+    <audio id="bg-music" src="Minecraft1.mp3" loop></audio>
+
+    <div class="image-modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <h1 class="title">Фан-вики Minecraft</h1>
+    <nav class="menu">
+        <a href="#main" class="nav-link">Главная</a>
+        <span class="separator">•</span>
+        <a href="#coolart" class="nav-link">Красивые фоточки</a>
+        <span class="separator">•</span>
+        <a href="#mems" class="nav-link">Легендарные мемы</a>
+    </nav>
+
+    <div id="main" class="container">
+        <h2>Minecraft — компьютерная инди-игра в жанре песочницы, созданная шведским программистом Маркусом Перссоном 
+            и выпущенная его студией Mojang AB. В 2009 году Перссон опубликовал начальную версию игры; в конце 
+            2011 года была выпущена стабильная версия для компьютеров Windows, Linux и macOS с распространением 
+            через официальный сайт. В последующие годы Minecraft была портирована на мобильные устройства под 
+            управлением Android, iOS и Windows Phone; на игровые приставки PlayStation 3, PlayStation 4, PlayStation 5, 
+            PlayStation Vita, Xbox 360, Xbox One, Xbox Series X/S, New Nintendo 3DS, Nintendo Switch и Wii U; и другие 
+            платформы. В 2014 году корпорация Microsoft приобрела права на Minecraft вместе со студией Mojang AB за 2,5 
+            миллиарда долларов. В 2017 году была выпущена мультиплатформенная версия игры, объединившая различные версии 
+            для разных устройств.</h2>
+    </div>
+
+    <div id="coolart" class="container">
+        <h2>Сборник красивых фото от фанатов</h2>
+    
+        <div class="flex-container">
+            <div class="flex-container_element-1">
+                <img src="1.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 1</div>
+            </div>
+    
+            <div class="flex-container_element-2">
+                <img src="2.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 2</div>
+            </div>
+    
+            <div class="flex-container_element-3">
+                <img src="3.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 3</div>
+            </div>
+    
+            <div class="flex-container_element-4">
+                <img src="4.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 4</div>
+            </div>
+    
+            <div class="flex-container_element-5">
+                <img src="5.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 5</div>
+            </div>
+    
+            <div class="flex-container_element-6">
+                <img src="6.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 6</div>
+            </div>
+    
+            <div class="flex-container_element-7">
+                <img src="7.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 7</div>
+            </div>
+    
+            <div class="flex-container_element-8">
+                <img src="8.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 8</div>
+            </div>
+    
+            <div class="flex-container_element-9">
+                <img src="9.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Фото 9</div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mems" class="container">
+        <h2>Сборник легендарных мемов</h2>
+    
+        <div class="flex-container">
+            <div class="flex-container_element-1">
+                <img src="mem1.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 1</div>
+            </div>
+    
+            <div class="flex-container_element-2">
+                <img src="mem2.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 2</div>
+            </div>
+    
+            <div class="flex-container_element-3">
+                <img src="mem3.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 3</div>
+            </div>
+    
+            <div class="flex-container_element-4">
+                <img src="mem4.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 4</div>
+            </div>
+    
+            <div class="flex-container_element-5">
+                <img src="mem5.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 5</div>
+            </div>
+    
+            <div class="flex-container_element-6">
+                <img src="mem6.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 6</div>
+            </div>
+    
+            <div class="flex-container_element-7">
+                <img src="mem7.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 7</div>
+            </div>
+    
+            <div class="flex-container_element-8">
+                <img src="mem8.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 8</div>
+            </div>
+    
+            <div class="flex-container_element-9">
+                <img src="mem9.jpg" onclick="openImage(this.src)">
+                <div class="image-caption">Мем 9</div>
+            </div>
+        </div>
+    </div>    
+
+    <footer class="footer">
+        <p>Фан-вики Minecraft © 2025</p>
+        <p>Сайт сделан soonlightt. Minecraft принадлежит Mojang / Microsoft.</p>
+    </footer>
+</body>
+</html>
