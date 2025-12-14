@@ -259,7 +259,7 @@ html {
     }
 
     #music-btn {
-        top: 70px;
+        top: 110px;
         left: 10px;
         transform: none;
         font-size: 8px;
@@ -273,3 +273,4 @@ html {
         color: #fff;
     }
 }
+
