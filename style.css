@@ -34,6 +34,13 @@
     color: #000000;
 }
 
+.menu a{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+}
+
 #music-btn {
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
@@ -42,13 +49,7 @@
     position: fixed; 
     top: 30px;
     left: 30px;
-}
-
-.menu a{
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Press Start 2P', cursive;
-    text-decoration: none;
+    z-index: 1000;
 }
 
 body{
@@ -255,5 +256,14 @@ html {
 
     .menu a {
         font-size: 12px;
+    }
+
+    #music-btn {
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 8px;
+        padding: 6px 10px;
+        z-index: 1100;
     }
 }
