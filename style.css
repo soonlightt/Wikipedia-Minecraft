@@ -109,6 +109,7 @@ h2 {
 .flex-container_element-7,
 .flex-container_element-8,
 .flex-container_element-9 {
+    justify-content: center;
     flex: 1 1 200px;
     max-width: 280px;
     height: 200px;
@@ -120,6 +121,7 @@ h2 {
     transition: all 0.3s ease;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
 }
 
 .flex-container_element-1 img,
@@ -232,7 +234,7 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1920px;
 }
 
 @media (max-width: 1024px) {
@@ -242,7 +244,16 @@ html {
 }
 
 @media (max-width: 768px) {
-    .container {
-        max-width: 100%;
+    .menu {
+        left: 0;
+        transform: none;
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .menu a {
+        font-size: 12px;
     }
 }
