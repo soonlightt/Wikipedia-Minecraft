@@ -47,7 +47,7 @@ window.addEventListener('scroll', () => {
 
         achievement.classList.add('show');
 
-        sound.volume = 0.2;
+        sound.volume = 0.1;
         sound.currentTime = 0;
         sound.play();
 
@@ -58,4 +58,5 @@ window.addEventListener('scroll', () => {
         }, 4000);
     }
 });
+
 
