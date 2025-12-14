@@ -259,6 +259,9 @@ html {
     }
 
     #music-btn {
+        border-radius: 4px;
+        appearance: none;
+        -webkit-appearance: none;
         top: 70px;
         left: 50%;
         transform: translateX(-50%);
@@ -267,4 +270,3 @@ html {
         z-index: 1100;
     }
 }
-
